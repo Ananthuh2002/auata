@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+
+  auta:
+    platform: linux/amd64
+    build:
+      context: ./auta
+    image: ananthu2002/auta:latest
+    ports:
+      - "3005:3000"
+    depends_on:
+      - backend
+
+  backend:
+    platform: linux/amd64
+    build:
+      context: ./backend
+    image: ananthu2002/backend:latest
+    ports:
+      - "5005:5000"
+    env_file:
+      - ./backend/.env
