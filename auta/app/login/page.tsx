@@ -88,7 +88,7 @@ export default function LoginPage() {
           </h1>
           <p className="text-lg mb-8" style={{ color: "#c4b5fd" }}>
             All-in-one platform for managing employee advances, leaves, and
-            attendance.
+            attendances.
           </p>
           <div className="space-y-3">
             {[
