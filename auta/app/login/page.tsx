@@ -125,7 +125,7 @@ export default function LoginPage() {
           </div>
         </div>
         <p className="relative z-10 text-sm" style={{ color: "#6d7bff" }}>
-          © 2026 Auta. All rights reserved.
+          © 2026 Auta. All rights reserveds.
         </p>
       </div>
 
